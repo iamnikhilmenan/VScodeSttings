@@ -1,0 +1,355 @@
+{
+  //!:: Auto Close Tag
+  "auto-close-tag.SublimeText3Mode": true,
+  "auto-close-tag.enableAutoCloseTag": true,
+  "auto-close-tag.enableAutoCloseSelfClosingTag": true,
+  "auto-close-tag.insertSpaceBeforeSelfClosingTag": false,
+  "auto-close-tag.disableOnLanguage": ["php", "python"],
+  "auto-close-tag.excludedTags": [
+    "area",
+    "base",
+    "br",
+    "col",
+    "command",
+    "embed",
+    "hr",
+    "img",
+    "input",
+    "keygen",
+    "link",
+    "meta",
+    "param",
+    "source",
+    "track",
+    "wbr"
+  ],
+
+  //:: Auto Rename tag
+  "auto-rename-tag.activationOnLanguage": [
+    "html",
+    "xml",
+    "php",
+    "javascript",
+    "javascriptreact"
+  ],
+
+  //!:: Auto Save
+  "files.autoSave": "onFocusChange",
+
+  //!:: Better Comments
+  "better-comments.multilineComments": true,
+  "better-comments.highlightPlainText": false,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#3498DB",
+      // "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": " ::",
+      "color": "#fff",
+      // "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "::",
+      "color": "#fff",
+      // "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+
+  //!:: Bracket Highlighter
+  "BracketHighlighter.customSymbols": [
+    {
+      "open": "do",
+      "close": "end"
+    },
+    {
+      "open": "/*",
+      "close": "*/"
+    }
+  ],
+
+  //:: Bracket Pair Highlighter
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+
+  //!:: Code Runner
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "php": "C:\\php\\php.exe",
+    "python": "python",
+    "perl": "perl",
+    "ruby": "C:\\Ruby23-x64\\bin\\ruby.exe",
+    "go": "go run",
+    "html": "\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\"",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+  },
+  "code-runner.executorMapByGlob": {
+    "pom.xml": "cd $dir && mvn clean package",
+    "*.test.js": "tap",
+    "*.js": "node"
+  },
+  "code-runner.defaultLanguage": "javascript",
+  "code-runner.executorMapByFileExtension": {
+    ".vbs": "cscript //Nologo"
+  },
+  "code-runner.customCommand": "echo Hello",
+  "code-runner.cwd": "path/to/working/directory",
+  "code-runner.clearPreviousOutput": false,
+  "code-runner.saveAllFilesBeforeRun": false,
+  "code-runner.saveFileBeforeRun": false,
+  "code-runner.runInTerminal": false,
+  "code-runner.preserveFocus": true,
+  "code-runner.enableAppInsights": false,
+
+  //!:: Color Info
+  "colorInfo.languages": [
+    {
+      "selector": "css",
+      "colors": "css"
+    },
+    {
+      "selector": "sass",
+      "colors": "css"
+    },
+    {
+      "selector": "scss",
+      "colors": "css"
+    },
+    {
+      "selector": "less",
+      "colors": "css"
+    },
+    {
+      "selector": "html",
+      "colors": "css"
+    }
+  ],
+
+  //!:: ES Lint
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
+  },
+
+  //!:: Editor options
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": true,
+  // "editor.cursorStyle": "block",
+  "editor.formatOnPaste": true,
+
+  //!:: Font Family
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 24,
+
+  //!:: HTML CSS Support
+  "css.styleSheets": [
+    "https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css",
+    "/style.css",
+    "style.css",
+    "${fileBasenameNoExtension}.css"
+  ],
+  "css.enabledLanguages": ["html"],
+  "tabnine.experimentalAutoImports": true,
+
+  ///////////////////////////////////////////////////////////
+  ///////////////////////////////////////////////////////////
+  ///////////////////////////////////////////////////////////
+  //!:: Indent Rainbow
+  "indentRainbow.excludedLanguages": ["plaintext"],
+  "indentRainbow.colors": [
+    "rgba(255,255,64,0.07)",
+    "rgba(127,255,127,0.07)",
+    "rgba(255,127,255,0.07)",
+    "rgba(79,236,236,0.07)"
+  ],
+  "indentRainbow.colorOnWhiteSpaceOnly": true,
+
+  //!:: Material Theme
+  "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
+  "editor.tokenColorCustomizations": {
+    "[Community Material Theme VARIANT]": {
+      "textMateRules": [
+        {
+          "scope": [
+            "punctuation.definition.comment",
+            "comment.block",
+            "comment.line",
+            "comment.block.documentation"
+          ],
+          "settings": {
+            "foreground": "#FF0000"
+          }
+        }
+      ]
+    },
+    "[Community Material Theme]": {
+      "comments": "#ff0000"
+    }
+  },
+  "workbench.colorCustomizations": {
+    "[Community Material Theme VARIANT]": {
+      "sideBar.background": "#ff0000"
+    }
+  },
+  "explorer.decorations.badges": false,
+
+  //!:: Material Icon Theme
+  "workbench.iconTheme": "material-icon-theme",
+  // "material-icon-theme.folders.color": "#ef5350",
+  // "material-icon-theme.folders.theme": "specific",
+  // "material-icon-theme.opacity": 0.5,
+  // "material-icon-theme.saturation": 0.5,
+  // "material-icon-theme.files.associations": {
+  //     "*.ts": "typescript",
+  //     "**.json": "json",
+  //     "fileName.ts": "angular"
+  // },
+
+  //!::Prettier Code Formatter
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "overrides": [
+    {
+      "files": "*.abc",
+      "options": {
+        "parser": "babel"
+      }
+    }
+  ],
+
+  //!:: Path Intellisense
+  "typescript.suggest.paths": false,
+  "javascript.suggest.paths": false,
+
+  //:: Terminal
+  "terminal.integrated.lineHeight": 1.4,
+  "terminal.integrated.letterSpacing": 2,
+
+  //:: Todo Highlighter
+  "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.keywords": [
+    {
+      "text": "main:",
+      "color": "white",
+      "backgroundColor": "green",
+      "overviewRulerColor": "grey",
+      "isWholeLine": true
+    },
+    {
+      "text": "todo:",
+      "color": "white",
+      "backgroundColor": "blue"
+      // "isWholeLine": true
+    },
+    {
+      "text": "fix:",
+      "color": "red",
+      "border": "1px solid red",
+      "borderRadius": "2px",
+      "backgroundColor": "rgba(0,0,0,.2)",
+      "isWholeLine": true
+    },
+    {
+      "text": "review:",
+      "color": "black",
+      // "border": "1px solid red",
+      "borderRadius": "2px",
+      "backgroundColor": "aqua"
+      // "isWholeLine": true
+    },
+    {
+      "text": "note:",
+      "color": "black",
+      // "border": "1px solid red",
+      "borderRadius": "2px",
+      "backgroundColor": "yellow",
+      "isWholeLine": true
+    },
+    {
+      "text": "console.log",
+      "color": "black",
+      // "border": "1px solid red",
+      "borderRadius": "2px",
+      "backgroundColor": "red"
+      // "isWholeLine": true
+    }
+  ],
+  "todohighlight.include": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.html",
+    "**/*.php",
+    "**/*.css",
+    "**/*.scss"
+  ],
+  "todohighlight.exclude": [
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/.vscode/**",
+    "**/.github/**",
+    "**/_output/**",
+    "**/*.min.*",
+    "**/*.map",
+    "**/.next/**"
+  ],
+  "todohighlight.maxFilesForSearch": 5120,
+  "todohighlight.toggleURI": false,
+  "editor.guides.indentation": true
+}
