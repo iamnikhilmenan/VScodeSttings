@@ -273,10 +273,6 @@
   "typescript.suggest.paths": false,
   "javascript.suggest.paths": false,
 
-  //:: Terminal
-  "terminal.integrated.lineHeight": 1.4,
-  "terminal.integrated.letterSpacing": 2,
-
   //:: Todo Highlighter
   "todohighlight.isEnable": true,
   "todohighlight.isCaseSensitive": true,
@@ -285,46 +281,42 @@
       "text": "main:",
       "color": "white",
       "backgroundColor": "green",
-      "overviewRulerColor": "grey",
-      "isWholeLine": true
+      "borderRadius": "100px",
+      "isWholeLine": true,
+      "overviewRulerColor": "grey"
+    },
+    {
+      "text": "note:",
+      "color": "white",
+      "backgroundColor": "#FF8000",
+      "border": "1px solid red"
     },
     {
       "text": "todo:",
+      "backgroundColor": "blue",
+      "color": "white"
+    },
+    {
+      "text": "review:",
       "color": "white",
-      "backgroundColor": "blue"
-      // "isWholeLine": true
+      "borderRadius": "100px",
+      "backgroundColor": "#8a2be2",
+      "isWholeLine": true
     },
     {
       "text": "fix:",
-      "color": "red",
+      "color": "white",
       "border": "1px solid red",
-      "borderRadius": "2px",
+      "borderRadius": "100px",
       "backgroundColor": "rgba(0,0,0,.2)",
       "isWholeLine": true
     },
     {
-      "text": "review:",
-      "color": "black",
-      // "border": "1px solid red",
-      "borderRadius": "2px",
-      "backgroundColor": "aqua"
-      // "isWholeLine": true
-    },
-    {
-      "text": "note:",
-      "color": "black",
-      // "border": "1px solid red",
-      "borderRadius": "2px",
-      "backgroundColor": "yellow",
-      "isWholeLine": true
-    },
-    {
       "text": "console.log",
-      "color": "black",
-      // "border": "1px solid red",
-      "borderRadius": "2px",
-      "backgroundColor": "red"
-      // "isWholeLine": true
+      "color": "white",
+      "border": "1px solid red",
+      "borderRadius": "100px",
+      "backgroundColor": " #FF2400"
     }
   ],
   "todohighlight.include": [
@@ -351,5 +343,9 @@
   ],
   "todohighlight.maxFilesForSearch": 5120,
   "todohighlight.toggleURI": false,
-  "editor.guides.indentation": true
+  "editor.guides.indentation": true,
+  "terminal.integrated.letterSpacing": 0.1,
+  "terminal.integrated.fontFamily": "Consolas",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.cursorStyle": "line"
 }
