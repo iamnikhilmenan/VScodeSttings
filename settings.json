@@ -1,5 +1,5 @@
 {
-  //!:: Auto Close Tag
+  //:: Auto Close Tag
   "auto-close-tag.SublimeText3Mode": true,
   "auto-close-tag.enableAutoCloseTag": true,
   "auto-close-tag.enableAutoCloseSelfClosingTag": true,
@@ -33,10 +33,10 @@
     "javascriptreact"
   ],
 
-  //!:: Auto Save
+  //:: Auto Save
   "files.autoSave": "onFocusChange",
 
-  //!:: Better Comments
+  //:: Better Comments
   "better-comments.multilineComments": true,
   "better-comments.highlightPlainText": false,
   "better-comments.tags": [
@@ -105,7 +105,7 @@
     }
   ],
 
-  //!:: Bracket Highlighter
+  //:: Bracket Highlighter
   "BracketHighlighter.customSymbols": [
     {
       "open": "do",
@@ -122,7 +122,7 @@
   "editor.guides.bracketPairs": "active",
   "bracket-pair-colorizer-2.depreciation-notice": false,
 
-  //!:: Code Runner
+  //:: Code Runner
   "code-runner.executorMap": {
     "javascript": "node",
     "php": "C:\\php\\php.exe",
@@ -152,7 +152,7 @@
   "code-runner.preserveFocus": true,
   "code-runner.enableAppInsights": false,
 
-  //!:: Color Info
+  //:: Color Info
   "colorInfo.languages": [
     {
       "selector": "css",
@@ -176,24 +176,24 @@
     }
   ],
 
-  //!:: ES Lint
+  //:: ES Lint
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
     "source.fixAll.eslint": true
   },
 
-  //!:: Editor options
+  //:: Editor options
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": true,
   // "editor.cursorStyle": "block",
   "editor.formatOnPaste": true,
 
-  //!:: Font Family
+  //:: Font Family
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.lineHeight": 24,
 
-  //!:: HTML CSS Support
+  //:: HTML CSS Support
   "css.styleSheets": [
     "https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css",
     "/style.css",
@@ -206,7 +206,7 @@
   ///////////////////////////////////////////////////////////
   ///////////////////////////////////////////////////////////
   ///////////////////////////////////////////////////////////
-  //!:: Indent Rainbow
+  //:: Indent Rainbow
   "indentRainbow.excludedLanguages": ["plaintext"],
   "indentRainbow.colors": [
     "rgba(255,255,64,0.07)",
@@ -216,7 +216,7 @@
   ],
   "indentRainbow.colorOnWhiteSpaceOnly": true,
 
-  //!:: Material Theme
+  //:: Material Theme
   "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
   "editor.tokenColorCustomizations": {
     "[Community Material Theme VARIANT]": {
@@ -244,20 +244,17 @@
     }
   },
   "explorer.decorations.badges": false,
+  "material-icon-theme.folders.color": "#ef5350",
+  "material-icon-theme.folders.theme": "specific",
+  "material-icon-theme.opacity": 0.5,
+  "material-icon-theme.saturation": 0.5,
+  "material-icon-theme.files.associations": {
+    "*.ts": "typescript",
+    "**.json": "json",
+    "fileName.ts": "angular"
+  },
 
-  //!:: Material Icon Theme
-  "workbench.iconTheme": "material-icon-theme",
-  // "material-icon-theme.folders.color": "#ef5350",
-  // "material-icon-theme.folders.theme": "specific",
-  // "material-icon-theme.opacity": 0.5,
-  // "material-icon-theme.saturation": 0.5,
-  // "material-icon-theme.files.associations": {
-  //     "*.ts": "typescript",
-  //     "**.json": "json",
-  //     "fileName.ts": "angular"
-  // },
-
-  //!::Prettier Code Formatter
+  //::Prettier Code Formatter
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "overrides": [
@@ -269,7 +266,7 @@
     }
   ],
 
-  //!:: Path Intellisense
+  //:: Path Intellisense
   "typescript.suggest.paths": false,
   "javascript.suggest.paths": false,
 
@@ -347,5 +344,6 @@
   "terminal.integrated.letterSpacing": 0.1,
   "terminal.integrated.fontFamily": "Consolas",
   "terminal.integrated.fontSize": 16,
-  "terminal.integrated.cursorStyle": "line"
+  "terminal.integrated.cursorStyle": "line",
+  "workbench.iconTheme": "eq-material-theme-icons-ocean"
 }
