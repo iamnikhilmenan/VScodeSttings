@@ -19,7 +19,7 @@
     "scope": "javascript,typescript",
     "prefix": "cl",
     "body": ["console.log();"]
-  }
+  },
   "Write to file": {
     "scope": "javascript,typescript",
     "prefix": "fn",
