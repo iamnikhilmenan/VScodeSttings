@@ -2,9 +2,16 @@
 /////////////////////////////////////////////////// Extensions IDs //////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-===> Name: Live Server
+// ===> Name: Live Server
 Id: ritwickdey.LiveServer
 Description: Launch a development local Server with live reload feature for static & dynamic pages
 Version: 5.7.9
 Publisher: Ritwick Dey
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+
+// ===> Name: Todo Tree
+Id: Gruntfuggly.todo-tree
+Description: Show TODO, FIXME, etc. comment tags in a tree view
+Version: 0.0.226
+Publisher: Gruntfuggly
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
