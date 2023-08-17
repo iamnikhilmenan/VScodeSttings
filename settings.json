@@ -1,279 +1,98 @@
 {
-  //////////////////////////////////////////////////////////////////////
-  // :: Open User Settings /////////////////////////////////////////////
-  // "http.proxy": "http://username:password@hostname:port/",
-  // "http.proxyAuthorization": null,
-  // "http.proxyStrictSSL": true,
-
-  //////////////////////////////////////////////////////////////////////
-  // :: Auto Close Tag /////////////////////////////////////////////////
-  "auto-close-tag.SublimeText3Mode": true,
-  "auto-close-tag.enableAutoCloseTag": true,
-  "auto-close-tag.enableAutoCloseSelfClosingTag": true,
-  "auto-close-tag.insertSpaceBeforeSelfClosingTag": false,
-  "auto-close-tag.activationOnLanguage": ["*"],
-  // tag not to auto close
-  // "auto-close-tag.excludedTags": [
-  //     "area",
-  //     "base",
-  //     "br",
-  //     "col",
-  //     "command",
-  //     "embed",
-  //     "hr",
-  //     "img",
-  //     "input",
-  //     "keygen",
-  //     "link",
-  //     "meta",
-  //     "param",
-  //     "source",
-  //     "track",
-  //     "wbr"
-  // ],
-
-  //////////////////////////////////////////////////////////////////////
-  // :: Auto Complete Tag //////////////////////////////////////////////
-  "auto-rename-tag.activationOnLanguage": ["*"],
-
-  //////////////////////////////////////////////////////////////////////
-  // :: Better Comments ////////////////////////////////////////////////
-  "better-comments.tags": [
-    {
-      "tag": "!",
-      "color": "#FF2D00",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "?",
-      "color": "#3498DB",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "//",
-      "color": "#474747",
-      "strikethrough": true,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "todo",
-      "color": "#FF8C00",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "*",
-      "color": "#98C379",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
+    ////////////////////////////////////////////////////////
+    ///////////////////// TODO TREE ////////////////////////
+    ////////////////////////////////////////////////////////
+    "todo-tree.general.tags": [
+        "COMP",
+        "JSX",
+        "STYLE",
+        "NOTE",
+        "TODO",
+        "REVIEW",
+        "FIXME",
+        "console.log",
+        "MAIN",
+    ],
+    "todo-tree.highlights.customHighlight": {
+       "COMP":{
+        "foreground": "#fff",
+        "background": "#228B22",
+        "type": "whole-line",
+        "icon": "arrow-right",
+        "iconColour": "#228B22",
+        "gutterIcon": true,
+        "fontWeight": "900"
+       },
+       "JSX":{
+        "foreground": "#ffffff",
+        "background": "#228B22",
+        "type": "whole-line",
+        "icon": "arrow-right",
+        "iconColour": "#228B22",
+        "gutterIcon": true,
+        "fontWeight": "900"
+       },
+       "STYLE":{
+        "foreground": "#ffffff",
+        "background": "#228B22",
+        "type": "whole-line",
+        "icon": "arrow-right",
+        "iconColour": "#228B22",
+        "gutterIcon": true,
+        "fontWeight": "900"
+       },
+       "MAIN":{
+        "foreground": "#ffffff",
+        "background": "#228B22",
+        "type": "whole-line",
+        "icon": "arrow-right",
+        "iconColour": "#228B22",
+        "gutterIcon": true,
+        "fontWeight": "900"
+       },
+       "NOTE":{
+        "foreground": "#000",
+        "background": "#FF8000",
+        "type": "tag-and-subTag",
+        "icon": "note",
+        "iconColour": "#FF8000",
+        "gutterIcon": true,
+        "fontWeight": "900"
+       },
+       "TODO":{
+        "foreground": "#000000",
+        "background": "#FFFF00",
+        "type": "tag-and-subTag",
+        "icon": "checklist",
+        "iconColour": "#FFFF00",
+        "gutterIcon": true,
+        "fontWeight": "900"
+       },
+       "REVIEW":{
+        "foreground": "#ffffff",
+        "background": "#8a2be2",
+        "type": "tag-and-subTag",
+        "icon": "search",
+        "iconColour": "#8a2be2",
+        "gutterIcon": true,
+        "fontWeight": "900"
+       },
+       "FIXME":{
+        "foreground": "#000000",
+        "background": "#FF0000",
+        "type": "tag-and-subTag",
+        "icon": "bug",
+        "iconColour": "#FF0000",
+        "gutterIcon": true,
+        "fontWeight": "900"
+       },
+       "console.log":{
+        "foreground": "#ffffff",
+        "background": "#1569C7",
+        "type": "tag-and-subTag",
+        "icon": "eye",
+        "iconColour": "#1569C7",
+        "gutterIcon": true,
+       },
     }
-  ],
-
-  //////////////////////////////////////////////////////////////////////
-  // :: Bracket Highlighter ////////////////////////////////////////////
-  "BracketHighlighter.customSymbols": [
-    {
-      "open": "do",
-      "close": "end"
-    },
-    {
-      "open": "/*",
-      "close": "*/"
-    }
-  ],
-
-  //////////////////////////////////////////////////////////////////////
-  // :: Bracket Pair Highlighter ///////////////////////////////////////
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": "active",
-
-  //////////////////////////////////////////////////////////////////////
-  // :: Code Spell Checker /////////////////////////////////////////////
-  "cSpell.maxNumberOfProblems": 50,
-  "cSpell.numSuggestions": 8,
-  "cSpell.minWordLength": 2,
-  "cSpell.enabledLanguageIds": ["*"],
-  "cSpell.enabled": true,
-  "cSpell.words": ["nikhil", "img", "wbr", "rgba"],
-  "cSpell.allowCompoundWords": false,
-  "cSpell.ignorePaths": [
-    "node_modules", // this will ignore anything the node_modules directory
-    "**/node_modules", // the same for this one
-    "**/node_modules/**", // the same for this one
-    "node_modules/**", // Doesn't currently work due to how the current working directory is determined.
-    "vscode-extension", //
-    ".git", // Ignore the .git directory
-    "*.dll", // Ignore all .dll files.
-    "**/*.dll" // Ignore all .dll files
-  ],
-  "cSpell.spellCheckDelayMs": 50,
-
-  //////////////////////////////////////////////////////////////////////
-  // :: Code Runner ////////////////////////////////////////////////////
-  "code-runner.executorMap": {
-    "javascript": "node",
-    "php": "C:\\php\\php.exe",
-    "python": "python",
-    "perl": "perl",
-    "ruby": "C:\\Ruby23-x64\\bin\\ruby.exe",
-    "go": "go run",
-    "html": "\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\"",
-    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
-    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
-  },
-  "code-runner.executorMapByGlob": {
-    "pom.xml": "cd $dir && mvn clean package",
-    "*.test.js": "tap",
-    "*.js": "node"
-  },
-  "code-runner.defaultLanguage": "javascript",
-  "code-runner.executorMapByFileExtension": {
-    ".vbs": "cscript //Nologo"
-  },
-  "code-runner.customCommand": "echo Hello",
-  "code-runner.cwd": "path/to/working/directory",
-  "code-runner.clearPreviousOutput": false,
-  "code-runner.saveAllFilesBeforeRun": false,
-  "code-runner.saveFileBeforeRun": false,
-  "code-runner.runInTerminal": false,
-  "code-runner.preserveFocus": true,
-  "code-runner.enableAppInsights": false,
-
-  //////////////////////////////////////////////////////////////////////
-  // :: Editor Options /////////////////////////////////////////////////
-  "editor.cursorBlinking": "smooth",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.cursorStyle": "line",
-  "editor.formatOnPaste": true,
-
-  //////////////////////////////////////////////////////////////////////
-  // :: Font Family ////////////////////////////////////////////////////
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
-  "editor.lineHeight": 24,
-
-  //////////////////////////////////////////////////////////////////////
-  // :: GitHub Theme ///////////////////////////////////////////////////
-  "workbench.colorTheme": "GitHub Dark Default",
-
-  //////////////////////////////////////////////////////////////////////
-  // :: Indent-rainbow /////////////////////////////////////////////////
-  "indentRainbow.includedLanguages": [],
-  "indentRainbow.excludedLanguages": ["plaintext"],
-  "indentRainbow.updateDelay": 100,
-  "indentRainbow.colors": [
-    "rgba(255,255,64,0.1)",
-    "rgba(127,255,127,0.1)",
-    "rgba(255,127,255,0.1)",
-    "rgba(79,236,236,0.1)"
-  ],
-  "indentRainbow.errorColor": "rgba(128,32,32,0.6)",
-  "indentRainbow.tabmixColor": "rgba(128,32,96,0.6)",
-  "indentRainbow.indicatorStyle": "classic",
-  "indentRainbow.lightIndicatorStyleLineWidth": 1,
-  "indentRainbow.ignoreLinePatterns": [
-    "/[ \t]* [*]/g", // lines beginning with <whitespace><space>*
-    "/[ \t]+[/]{2}/g" // lines beginning with <whitespace>//
-  ],
-  "indentRainbow.ignoreErrorLanguages": ["markdown", "haskell"],
-  "indentRainbow.colorOnWhiteSpaceOnly": true,
-
-  //////////////////////////////////////////////////////////////////////
-  // :: Material Icon Theme ////////////////////////////////////////////
-  "workbench.iconTheme": "material-icon-theme",
-  "material-icon-theme.opacity": 1,
-  "material-icon-theme.saturation": 1,
-
-  //////////////////////////////////////////////////////////////////////
-  // :: npm Intellisense ///////////////////////////////////////////////
-  "npm-intellisense.importES6": true,
-  "npm-intellisense.importQuotes": "'",
-  "npm-intellisense.importLinebreak": ";\r\n",
-  "npm-intellisense.importDeclarationType": "const",
-  "npm-intellisense.scanDevDependencies": true,
-  "npm-intellisense.showBuildInLibs": true,
-  "npm-intellisense.recursivePackageJsonLookup": true,
-  "npm-intellisense.packageSubfoldersIntellisense": true,
-
-  //////////////////////////////////////////////////////////////////////
-  // :: Path Intellisense //////////////////////////////////////////////
-  "typescript.suggest.paths": false,
-  "javascript.suggest.paths": false,
-  "path-intellisense.showHiddenFiles": true,
-
-  //////////////////////////////////////////////////////////////////////
-  // :: Prettier - Code formatter  /////////////////////////////////////
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-
-  ///////////////////////////////////////////////////////////////////////
-  // :: Terminal Settings ///////////////////////////////////////////////
-  "terminal.integrated.letterSpacing": 0.1,
-  "terminal.integrated.fontFamily": "Consolas",
-  "terminal.integrated.fontSize": 16,
-  "terminal.integrated.cursorStyle": "line",
-
-  //////////////////////////////////////////////////////////////////////
-  // :: Todo Highlight  ////////////////////////////////////////////////
-  "todohighlight.isEnable": true,
-  "todohighlight.isCaseSensitive": true,
-  "todohighlight.keywords": [
-    {
-      "text": "main:",
-      "color": "white",
-      "backgroundColor": "green",
-      "borderRadius": "100px",
-      "isWholeLine": true,
-      "overviewRulerColor": "grey"
-    },
-    {
-      "text": "note:",
-      "color": "white",
-      "backgroundColor": "#FF8000",
-      "border": "1px solid red"
-    },
-    {
-      "text": "todo:",
-      "backgroundColor": "blue",
-      "color": "white"
-    },
-    {
-      "text": "review:",
-      "color": "white",
-      "borderRadius": "100px",
-      "backgroundColor": "#8a2be2",
-      "isWholeLine": true
-    },
-    {
-      "text": "fix:",
-      "color": "white",
-      "border": "1px solid red",
-      "borderRadius": "100px",
-      "backgroundColor": "rgba(0,0,0,.2)",
-      "isWholeLine": true
-    },
-    {
-      "text": "console.log",
-      "color": "white",
-      "border": "1px solid red",
-      "borderRadius": "100px",
-      "backgroundColor": " #FF2400"
-    }
-  ]
 }
