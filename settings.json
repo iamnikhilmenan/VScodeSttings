@@ -1,98 +1,106 @@
 {
-    ////////////////////////////////////////////////////////
-    ///////////////////// TODO TREE ////////////////////////
-    ////////////////////////////////////////////////////////
-    "todo-tree.general.tags": [
-        "COMP",
-        "JSX",
-        "STYLE",
-        "NOTE",
-        "TODO",
-        "REVIEW",
-        "FIXME",
-        "console.log",
-        "MAIN",
-    ],
-    "todo-tree.highlights.customHighlight": {
-       "COMP":{
-        "foreground": "#fff",
-        "background": "#228B22",
-        "type": "whole-line",
-        "icon": "arrow-right",
-        "iconColour": "#228B22",
-        "gutterIcon": true,
-        "fontWeight": "900"
-       },
-       "JSX":{
-        "foreground": "#ffffff",
-        "background": "#228B22",
-        "type": "whole-line",
-        "icon": "arrow-right",
-        "iconColour": "#228B22",
-        "gutterIcon": true,
-        "fontWeight": "900"
-       },
-       "STYLE":{
-        "foreground": "#ffffff",
-        "background": "#228B22",
-        "type": "whole-line",
-        "icon": "arrow-right",
-        "iconColour": "#228B22",
-        "gutterIcon": true,
-        "fontWeight": "900"
-       },
-       "MAIN":{
-        "foreground": "#ffffff",
-        "background": "#228B22",
-        "type": "whole-line",
-        "icon": "arrow-right",
-        "iconColour": "#228B22",
-        "gutterIcon": true,
-        "fontWeight": "900"
-       },
-       "NOTE":{
-        "foreground": "#000",
-        "background": "#FF8000",
-        "type": "tag-and-subTag",
-        "icon": "note",
-        "iconColour": "#FF8000",
-        "gutterIcon": true,
-        "fontWeight": "900"
-       },
-       "TODO":{
-        "foreground": "#000000",
-        "background": "#FFFF00",
-        "type": "tag-and-subTag",
-        "icon": "checklist",
-        "iconColour": "#FFFF00",
-        "gutterIcon": true,
-        "fontWeight": "900"
-       },
-       "REVIEW":{
-        "foreground": "#ffffff",
-        "background": "#8a2be2",
-        "type": "tag-and-subTag",
-        "icon": "search",
-        "iconColour": "#8a2be2",
-        "gutterIcon": true,
-        "fontWeight": "900"
-       },
-       "FIXME":{
-        "foreground": "#000000",
-        "background": "#FF0000",
-        "type": "tag-and-subTag",
-        "icon": "bug",
-        "iconColour": "#FF0000",
-        "gutterIcon": true,
-        "fontWeight": "900"
-       },
-       "console.log":{
-        "foreground": "#ffffff",
-        "background": "#1569C7",
-        "type": "tag-and-subTag",
-        "icon": "eye",
-        "iconColour": "#1569C7",
-        "gutterIcon": true,
-       },
+  ////////////////////////////////////////////////////////
+  ///////////////////// TODO TREE ////////////////////////
+  ////////////////////////////////////////////////////////
+  "todo-tree.general.tags": [
+    "COMP",
+    "JSX",
+    "STYLE",
+    "NOTE",
+    "TODO",
+    "REVIEW",
+    "FIXME",
+    "console.log",
+    "MAIN"
+  ],
+  "todo-tree.highlights.customHighlight": {
+    "COMP": {
+      "foreground": "#fff",
+      "background": "#228B22",
+      "type": "whole-line",
+      "icon": "arrow-right",
+      "iconColour": "#228B22",
+      "gutterIcon": true,
+      "fontWeight": "900"
+    },
+    "JSX": {
+      "foreground": "#ffffff",
+      "background": "#228B22",
+      "type": "whole-line",
+      "icon": "arrow-right",
+      "iconColour": "#228B22",
+      "gutterIcon": true,
+      "fontWeight": "900"
+    },
+    "STYLE": {
+      "foreground": "#ffffff",
+      "background": "#228B22",
+      "type": "whole-line",
+      "icon": "arrow-right",
+      "iconColour": "#228B22",
+      "gutterIcon": true,
+      "fontWeight": "900"
+    },
+    "MAIN": {
+      "foreground": "#000000",
+      "background": "#228B22",
+      "type": "whole-line",
+      "icon": "arrow-right",
+      "iconColour": "#228B22",
+      "gutterIcon": true,
+      "fontWeight": "900"
+    },
+    "NOTE": {
+      "foreground": "#000",
+      "background": "#FF8000",
+      "type": "tag-and-subTag",
+      "icon": "note",
+      "iconColour": "#FF8000",
+      "gutterIcon": true,
+      "fontWeight": "900"
+    },
+    "TODO": {
+      "foreground": "#000000",
+      "background": "#FFFF00",
+      "type": "tag-and-subTag",
+      "icon": "checklist",
+      "iconColour": "#FFFF00",
+      "gutterIcon": true,
+      "fontWeight": "900"
+    },
+    "REVIEW": {
+      "foreground": "#ffffff",
+      "background": "#8a2be2",
+      "type": "tag-and-subTag",
+      "icon": "search",
+      "iconColour": "#8a2be2",
+      "gutterIcon": true,
+      "fontWeight": "900"
+    },
+    "FIXME": {
+      "foreground": "#000000",
+      "background": "#FF0000",
+      "type": "tag-and-subTag",
+      "icon": "bug",
+      "iconColour": "#FF0000",
+      "gutterIcon": true,
+      "fontWeight": "900"
+    },
+    "console.log": {
+      "foreground": "#ffffff",
+      "background": "#1569C7",
+      "type": "tag-and-subTag",
+      "icon": "eye",
+      "iconColour": "#1569C7",
+      "gutterIcon": true
     }
+  },
+
+  ////////////////////////////////////////////////////////
+  ////////////////// VS Code Settings ////////////////////
+  ////////////////////////////////////////////////////////
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "editor.wordWrap": "bounded"
 }
