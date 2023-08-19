@@ -15,3 +15,10 @@ Description: Show TODO, FIXME, etc. comment tags in a tree view
 Version: 0.0.226
 Publisher: Gruntfuggly
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
+
+// ===> Name: Prettier - Code formatter
+Id: esbenp.prettier-vscode
+Description: Code formatter using prettier
+Version: 10.1.0
+Publisher: Prettier
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
